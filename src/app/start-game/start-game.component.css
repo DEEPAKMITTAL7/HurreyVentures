@@ -1,0 +1,35 @@
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: "Neue Haas Grotesk Display Pro";
+    font-style: normal;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    font-size: 50px !important;
+    font-weight: 600;
+  }
+
+  .startBtn {
+    background: linear-gradient(#141923,#141923) padding-box,linear-gradient(to right,#7b72cc,#dc0078,#3871d6) border-box;
+    border-radius: 50em;
+    border: 2px solid transparent;
+    color: #fff;
+    min-width: 100px;
+    width: 156px;
+    height: 42px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 15px !important;
+    font-size: 15px !important;
+    cursor: pointer;
+  }
+
+  .begin{
+    opacity: 1;
+    color: rgb(255 255 255 / var(--tw-text-opacity));
+    font-weight: 700;
+    font-size: 5vh !important;
+  }

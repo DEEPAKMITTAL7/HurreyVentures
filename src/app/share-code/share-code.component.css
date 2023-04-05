@@ -1,0 +1,106 @@
+@media screen and (max-width: 480px) {
+  .centered {
+    color: white;
+    font-family: "Neue Haas Grotesk Display Pro";
+    font-style: normal;
+    height: 60vh;
+    width: 100vw;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    background-image: url("../../assets/images/bg.jpeg");
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+}
+@media screen and (min-width: 480px) {
+  .centered {
+    color: white;
+    font-family: "Neue Haas Grotesk Display Pro";
+    font-style: normal;
+    height: 100vh;
+    width: 100vw;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    background-image: url("../../assets/images/bg.jpeg");
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+}
+.circle-container {
+  border-radius: 1.2vh;
+  background-color: #272727;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 40px;
+  gap: 30px;
+  width: 200px;
+}
+.rotate {
+  animation: rotation 4s infinite linear;
+}
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}
+.circle-container img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  background-color: grey;
+}
+.roomCode {
+  font-family: "Neue Haas Grotesk Display Pro";
+  font-style: normal;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #ffffff;
+}
+.playerRoom {
+  color: #9e9e9e;
+  background: black;
+  height: 45px;
+  width: 300px;
+  padding-left: 10px;
+  border-radius: 10px;
+  background: linear-gradient(#141923, #141923) padding-box,
+    linear-gradient(to right, #7b72cc, #dc0078, #3871d6) border-box;
+  border: 2px solid transparent;
+}
+.startBtn {
+  background: linear-gradient(#141923, #141923) padding-box,
+    linear-gradient(to right, #7b72cc, #dc0078, #3871d6) border-box;
+  border-radius: 50em;
+  border: 2px solid transparent;
+  color: #fff;
+  min-width: 100px;
+  width: 155px;
+  height: 45px;
+  justify-content: center;
+  align-items: center;
+  font-size: 15px;
+  cursor: pointer;
+  margin-top: 20px;
+}

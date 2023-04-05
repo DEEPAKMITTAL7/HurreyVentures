@@ -1,0 +1,11 @@
+<div class="container">
+    <img src="../../assets/images/bg.jpeg" alt="background image" style="width:100%;">
+    <div class="centered">
+        <img src="../../assets/images/hurrey.svg" *ngIf="showLogo" class="overlay">
+        <div class="centered" *ngIf="!showLogo">
+            <h1 class="name">What is your name?</h1>
+            <input type="text" placeholder="-Type here-" class="textInput" [(ngModel)]="searchText"> <br>
+            <button (click)="saveNewField()" [disabled]="!searchText" [ngClass]="{'enabled': searchText}"
+                class="btn">Next</button>
+        </div>
+    </div>

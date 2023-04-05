@@ -1,0 +1,12 @@
+<div class="container">
+    <div class="centered">
+        <!-- <i class = "pi-share-alt" style="color: white"></i> -->
+        <input type = "value"  class = "playerRoom" value= "100015" [(ngModel)]="roomCode"><br>
+        <div class = "box circle-container">
+            <div class="rotate">
+                <img [src]= "userProfile" alt="Photo">
+            </div>
+        </div>
+            <button (click)="start()" class = "startBtn">Start</button>
+    </div>   
+</div>

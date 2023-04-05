@@ -1,0 +1,66 @@
+.centered {
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: "Neue Haas Grotesk Display Pro";
+    font-style: normal;
+    align-items: center;
+  }
+  
+.overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 300px;
+}
+
+.textInput {
+    height: 45px;
+    width: 300px;
+    padding-left: 10px;
+    border-radius: 10px;
+    background: linear-gradient(#141923,#141923) padding-box,linear-gradient(to right,#7b72cc,#dc0078,#3871d6) border-box;
+    border: 2px solid transparent;
+    opacity: 1;
+    color: rgb(255 255 255 / var(--tw-text-opacity));
+    font-size: 20px;
+}
+
+.btn {
+    background: #3a3a3a;
+    color: #9e9e9e;
+    border: 1.6px solid #b0b0b0;
+    font-family: 'Neue Haas Grotesk Display Pro';
+    border: 1.65625px solid #B0B0B0;
+    border-radius: 50em;
+    width: 156px;
+    height: 45px;
+    min-width: 100px;
+    margin-top: 30px !important;
+    margin-left: 80px !important;
+    font-family: inherit;
+    font-size: 20px;
+    font-weight: inherit;
+    line-height: inherit;
+    color: inherit;
+    cursor: pointer;
+}
+
+button.enabled {
+    background-color: black;
+    opacity: 1;
+    border: 2px solid transparent;
+    color: rgb(255 255 255 / var(--tw-text-opacity));
+    background: linear-gradient(#141923,#141923) padding-box,linear-gradient(to right,#7b72cc,#dc0078,#3871d6) border-box;
+
+  }
+
+  .name{
+    font-size: 39px !important;
+    opacity: 1;
+    color: white;
+    font-weight: inherit !important;
+  }

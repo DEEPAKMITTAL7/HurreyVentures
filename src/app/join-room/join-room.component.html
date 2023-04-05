@@ -1,0 +1,16 @@
+<div class="container">
+    <div class="centered">
+        <div class="circle-container">
+            <div class="rotate">
+                <img [src]="userProfile" alt="Photo">
+            </div>
+            <p class="user">{{ user }}</p>
+        </div>
+        <div class="box2">
+            <p class="roomCode">Type room code below</p><br>
+            <input type="text" placeholder="-Type here-" class="playerRoom" [(ngModel)]="roomCode"><br>
+        </div>
+        <button (click)="beginGame()" class="nextBtn" [disabled]="!roomCode"
+            [ngClass]="{'enabled': roomCode}">Next</button>
+    </div>
+</div>

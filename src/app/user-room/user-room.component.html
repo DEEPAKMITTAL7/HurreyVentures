@@ -1,0 +1,12 @@
+<div class="container">
+    <div class="centered">
+        <div class="circle-container">
+            <div class="rotate">
+                <img [src]="userProfile" alt="Photo" class="profileImg">
+            </div>
+            <p class="user">{{ user}}</p>
+        </div>
+        <button (click)="joinRoom()" class="roomBtn">Join a Room</button><br>
+        <button (click)="createRoom()" class="roomBtn2">Create a Room</button>
+    </div>
+</div>

@@ -1,0 +1,57 @@
+/* You can add global styles to this file, and also import other style files */
+.container {
+  min-height: 100vh;
+  width: 100%;
+  background-color: #141923;
+  background-position: bottom;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.progress-bar-container {
+  position: absolute;
+  top: 15%;
+  width: 90%;
+  background: #000000;
+  border: 2px solid #3e438e;
+  border-radius: 52.5px;
+  height: 12px;
+  transition: all 2s;
+}
+
+.question-container {
+  position: absolute;
+  text-align: center;
+  font-size: 24px;
+  margin-top: -10%;
+  color: white;
+  font-weight: 400;
+}
+
+.btn {
+  background: linear-gradient(#141923, #141923) padding-box,
+    linear-gradient(to right, #7b72cc, #dc0078, #3871d6) border-box;
+  border-radius: 50em;
+  border: 2px solid transparent;
+  color: #fff;
+  min-width: 328px;
+  font-size: 20px;
+  height: 55px;
+  cursor: pointer;
+}
+.btn2 {
+  background: linear-gradient(#141923, #141923) padding-box,
+    linear-gradient(to right, #7b72cc, #dc0078, #3871d6) border-box;
+  border-radius: 50em;
+  border: 2px solid transparent;
+  color: #fff;
+  min-width: 328px;
+  font-size: 20px;
+  height: 55px;
+  margin-left: 10px !important;
+  cursor: pointer;
+}
+body{
+  margin: 0px;
+}

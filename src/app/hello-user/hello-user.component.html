@@ -1,0 +1,19 @@
+<div class="container2">
+  <div class="centered">
+    <h1 class="hello">Hello {{ userName }}!</h1><br>
+    <p class="center2">Chooose your avtar</p>
+    <div class="button-container">
+      <img src="../../assets/images/avtar1.svg" class="avtImg" style="font-size: 2rem" alt="button"
+        (click)="onImageClick('../../assets/images/avtar1.svg')" />
+      <img src="../../assets/images/avtar2.svg" class="avtImg" alt="avtar2"
+        (click)="onImageClick('../../assets/images/avtar2.svg')" />
+      <img src="../../assets/images/avtar3.svg" class="avtImg" alt="avtar3"
+        (click)="onImageClick('../../assets/images/avtar3.svg')" />
+      <img src="../../assets/images/avtar4.svg" class="avtImg" alt="avtar4"
+        (click)="onImageClick('../../assets/images/avtar4.svg')" />
+      <img src="../../assets/images/avtar5.svg" class="avtImg" alt="avtar5"
+        (click)="onImageClick('../../assets/images/avtar5.svg')" />
+    </div>
+    <button (click)="next()" [disabled]="!imageSelected" [ngClass]="{'enabled': imageSelected}">Next</button>
+  </div>
+</div>

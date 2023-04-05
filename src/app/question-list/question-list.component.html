@@ -1,0 +1,17 @@
+<div class="container">
+    <div class="centered">
+        <div class="text-center">
+            <p class="inputText">Choose a question</p>
+            <p class="inputText2">to get a personalised answer</p>
+        </div>
+        <div class="extdiv mt-0 dropdown-container">
+            <select class="ml-3 dropdown flex" [(ngModel)]="optionSelected" placeholder="-Select-"
+                (change)="onNavigate(location)">
+                <option class="dropdown-items">-Select-</option>
+                <option *ngFor="let list of questions" class="dropdown-items" [value]="list.name">
+                    {{list.name}}
+                </option>
+            </select>
+        </div>
+    </div>
+</div>
